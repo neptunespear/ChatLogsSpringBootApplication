@@ -17,4 +17,11 @@ YOU can use /chatlogs    to fetch all the chatlogs
 
 /chatlogs/<userId> will fetch chatlogs for particular userId
 
-/chatlogs/
+/chatlogs/<userId> if we pass optional field with Key = limit and Value = 5(suppose) it will return list of 5 chatlogs for particular user
+/chatlogs/<userId> if we pass optional field with Key = pageId and Value = initialsofMsggId it will return all the chatlogs having msggId initials same as value.
+
+DELETE METHOD
+-------------
+
+/chatlogs/<userId>  if we pass the userId -> it will delete all the chatlogs for the userId
+/chatlogs/<userId>/<messageId> if we pass both userId and messageId -> it will delete chatlogs for both conditions
