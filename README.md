@@ -8,7 +8,7 @@ YOU CAN USE /chatlogs/userId
 
 you can enter any userid along with add the json encoded input with message which cannot be blank and timestamp(i have initialize it with value 0, 
 if you input any timestamp that is ok or else it will generate automatic timstamp with epoch seconds)
-the response will set the parameter issent to true and add the msgg it 
+the response will set the parameter issent to true and add the msggId to it 
 
 GET METHOD
 -----------
